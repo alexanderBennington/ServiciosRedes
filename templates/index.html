@@ -14,14 +14,14 @@
     <section class="container">
         <div class="fondosesion">
             <div class="mx-auto cajasesion">
-                <form method="post">
+                <form method="post" action="/login">
                     <div class="centrado-simple">
                         <h2 id="titulo-inicio">Bienvenido a NetHub</h2>
                         <img src="{{ url_for('static', filename='img/logo.jpg') }}" width="250" alt="logo">
                     </div>
                     <div class="mb-3">
-                        <label for="correo" class="form-label">Usuario</label>
-                        <input type="text" class="form-control" id="correo" name="correo">
+                        <label for="usuario" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="usuario" name="usuario" placeholder="GNS3">
                     </div>
                     <div class="mb-3">
                         <label for="clave" class="form-label">Clave</label>
@@ -32,6 +32,12 @@
             </div>
         </div>
     </section>
+
+    <script>
+        {% if error %}
+            alert("{{ error }}");
+        {% endif %}
+    </script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
