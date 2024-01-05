@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&family=Quicksand:wght@400;600;700&family=Source+Code+Pro&display=swap');
+
+body{
+    font-family: 'Karla', sans-serif !important;
+    /*font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Code Pro', monospace;*/
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 238, 238) !important;
+}
+
+.fondosesion{
+    padding: 50px 0 50px 0;
+}
+
+.cajasesion{
+    width: 500px;
+    border-radius: 10px;
+    border: solid #dee2e685;
+    border-width: 1px;
+    padding: 1.5rem;
+}
+
+.centrado-simple{
+    text-align: center;
+}
+
+#titulo-inicio{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
