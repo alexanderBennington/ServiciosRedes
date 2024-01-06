@@ -1,0 +1,33 @@
+Jan 05 13:56:20.780 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 05 13:56:20.782 HYPERVISOR: Started on IP = localhost, TCP port = 62181.
+Jan 05 13:56:21.248 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 05 13:56:21.250 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\GNS3\Proyecto\project-files\dynamips 
+Jan 05 13:56:21.250 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\GNS3\Proyecto\project-files\dynamips
+Jan 05 13:56:21.251 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\GNS3\Proyecto\project-files\dynamips\cdbd8e04-d42a-4829-a930-e34535625a28 
+Jan 05 13:56:21.252 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\GNS3\Proyecto\project-files\dynamips\cdbd8e04-d42a-4829-a930-e34535625a28
+Jan 05 13:56:21.253 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Jan 05 13:56:21.257 VM: VM R3 created.
+Jan 05 13:56:21.258 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Jan 05 13:56:21.259 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Jan 05 13:56:21.259 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.259 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Jan 05 13:56:21.261 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jan 05 13:56:21.263 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jan 05 13:56:21.264 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.264 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x608927c0 
+Jan 05 13:56:21.267 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/keval/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jan 05 13:56:21.268 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.b380.0000 
+Jan 05 13:56:21.269 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Jan 05 13:56:21.271 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Jan 05 13:56:21.272 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.272 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-FE-TX 
+Jan 05 13:56:21.274 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.274 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-2FE-TX 
+Jan 05 13:56:21.275 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.276 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-2FE-TX 
+Jan 05 13:56:21.277 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.277 HYPERVISOR: exec_cmd: vm slot_add_binding R3 4 0 PA-2FE-TX 
+Jan 05 13:56:21.278 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.278 HYPERVISOR: exec_cmd: vm slot_add_binding R3 5 0 PA-2FE-TX 
+Jan 05 13:56:21.279 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 05 13:56:21.280 HYPERVISOR: exec_cmd: vm slot_add_binding R3 6 0 PA-2FE-TX 

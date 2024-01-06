@@ -15,14 +15,18 @@ def login():
     password = request.form.get('clave')
 
     if username == correct_username and password == correct_password:
-        return redirect(url_for('principal'))
+        return redirect(url_for('topologia'))
     else:
         error = 'Credenciales incorrectas. Inténtalo de nuevo.'
         return render_template('index.html', error=error)
 
-@app.route('/principal')
-def principal():
-    return render_template('principal.html')
+@app.route('/topologia')
+def topologia():
+    return render_template('topologia.html')
+
+@app.route('/protocolos/<router>')
+def protocolos(router):
+    return render_template('protocolos.html', router=router)
 
 if __name__ == '__main__':
     app.run(debug=True)

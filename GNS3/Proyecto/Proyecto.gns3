@@ -452,6 +452,38 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "3d8851b1-a2d9-4e03-a86d-e09aeaa49a92",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 4,
+                            "y": -9
+                        },
+                        "node_id": "e5ea555e-1a8b-4b3a-85ef-8cc46c798b23",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 71,
+                            "y": 60
+                        },
+                        "node_id": "9fe2ba20-4316-4e27-b997-29a691f89678",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -865,8 +897,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "5999e7cf-ba83-4120-a27f-24077fec46bf",
                 "width": 66,
-                "x": 481,
-                "y": -242,
+                "x": 480,
+                "y": -224,
                 "z": 1
             },
             {
@@ -1274,6 +1306,45 @@
                 "width": 65,
                 "x": 531,
                 "y": 222,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Ubuntu22-1",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Ubuntu22-1",
+                "node_id": "9fe2ba20-4316-4e27-b997-29a691f89678",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 2048,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "Ubuntu22"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "d7970d03-e8f0-4fbb-bf78-d0936dda91b4",
+                "width": 65,
+                "x": -197,
+                "y": -305,
                 "z": 1
             }
         ]
