@@ -2,8 +2,8 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-correct_username = "usuario"
-correct_password = "clave"
+correct_username = "cisco"
+correct_password = "cisco"
 
 @app.route("/")
 def index():
