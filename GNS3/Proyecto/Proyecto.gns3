@@ -184,8 +184,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
-                "x": 116,
-                "y": 20,
+                "x": 112,
+                "y": 174,
                 "z": 2
             },
             {
@@ -193,8 +193,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 112,
-                "y": 175,
+                "x": 114,
+                "y": 24,
                 "z": 2
             },
             {
@@ -202,8 +202,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.5</text></svg>",
-                "x": 55,
-                "y": 254,
+                "x": -218,
+                "y": 262,
                 "z": 2
             },
             {
@@ -211,8 +211,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.6</text></svg>",
-                "x": -205,
-                "y": 261,
+                "x": 54,
+                "y": 257,
                 "z": 2
             },
             {
@@ -1527,7 +1527,7 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -618,
+                "x": -617,
                 "y": 103,
                 "z": 1
             },

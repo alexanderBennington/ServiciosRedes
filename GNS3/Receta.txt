@@ -1,0 +1,148 @@
+R3 PROTOCOLO Y DHCP 
+
+R3#enable
+R3#conf term
+R3(config)#int fast 0/0
+R3(config-if)#ip add 192.168.3.1 255.255.255.0
+R3(config-if)#no sh
+R3(config-if)#exit
+R3(config)#int fast 1/0
+R3(config-if)#ip add 192.1.1.5 255.255.255.252
+R3(config-if)#no sh
+R3(config-if)#exit
+R3(config)#int fast 2/0
+R3(config-if)#ip add 192.1.1.9 255.255.255.252
+R3(config-if)#no sh
+R3(config-if)#exit
+R3(config)#router ospf 1
+R3(config-router)#net 192.168.3.0 0.0.0.255 area 0
+R3(config-router)#net 192.1.1.8 0.0.0.3 area 0
+R3(config-router)#net 192.1.1.4 0.0.0.3 area 0
+R3(config-router)#exit
+R3(config)#ip dhcp pool R3F0_0
+R3(dhcp-config)#network 192.168.3.0 255.255.255.0
+R3(dhcp-config)#exit
+R3(config)#ip dhcp pool R3F1_0
+R3(dhcp-config)#network 192.1.1.4 255.255.255.252
+R3(dhcp-config)#exit
+R3(config)#ip dhcp pool R3F2_0
+R3(dhcp-config)#network 192.1.1.8 255.255.255.252
+R3(dhcp-config)#exit
+R3(config)#ip dhcp pool R3F0_0
+R3(dhcp-config)#default-router 192.168.3.1
+R3(dhcp-config)#dns-server 8.8.8.8
+R3(dhcp-config)#exit
+R3(config)#ip dhcp pool R3F1_0
+R3(dhcp-config)#default-router 192.1.1.5
+R3(dhcp-config)#dns-server 8.8.8.8
+R3(dhcp-config)#exit
+R3(config)#ip dhcp pool R3F2_0
+R3(dhcp-config)#default-router 192.1.1.9
+R3(dhcp-config)#dns-server 8.8.8.8
+R3(dhcp-config)#exit
+
+
+R2 PROTOCOLO Y DHCP 
+
+R2#enable
+R2#conf term
+R2(config)#int fast 0/0
+R2(config-if)#ip add 192.168.2.1 255.255.255.0
+R2(config-if)#no sh
+R2(config-if)#exit
+R2(config)#int fast 1/0
+R2(config-if)#ip add 192.1.1.1 255.255.255.252
+R2(config-if)#no sh
+R2(config-if)#exit
+R2(config)#int fast 1/0
+R2(config-if)#ip add dhcp
+R2(config-if)#no sh
+R2(config-if)#exit
+R2(config)#router ospf 1
+R2(config-router)#net 192.168.2.0 0.0.0.255 area 0
+R2(config-router)#net 192.1.1.0 0.0.0.3 area 0
+R2(config-router)#net 192.1.1.4 0.0.0.3 area 0
+R2(config-router)#exit
+R2(config)#ip dhcp pool R2F0_0
+R2(dhcp-config)#network 192.168.2.0 255.255.255.0
+R2(dhcp-config)#exit
+R2(config)#ip dhcp pool R2F1_0
+R2(dhcp-config)#network 192.1.1.0 255.255.255.252
+R2(dhcp-config)#exit
+R2(config)#ip dhcp pool R2F0_0
+R2(dhcp-config)#default-router 192.168.2.1
+R2(dhcp-config)#dns-server 8.8.8.8
+R2(dhcp-config)#exit
+R2(config)#ip dhcp pool R2F1_0
+R2(dhcp-config)#default-router 192.1.1.1
+R2(dhcp-config)#dns-server 8.8.8.8
+R2(dhcp-config)#exit
+
+R4 PROTOCOLO Y DHCP 
+
+R4#enable
+R4#conf term
+R4(config)#int fast 0/0
+R4(config-if)#ip add 192.168.4.1 255.255.255.0
+R4(config-if)#no sh
+R4(config-if)#exit
+R4(config)#ip add 192.168.4.1 255.255.255.0
+R4(config)#int fast 1/0
+R4(config-if)#ip add dhcp
+R4(config-if)#no sh
+R4(config-if)#exit
+R4(config)#int fast 2/0
+R4(config-if)#ip add 192.1.1.13 255.255.255.252
+R4(config-if)#no sh
+R4(config-if)#exit
+R4(config)#router ospf 1
+R4(config-router)#net 192.168.4.0 0.0.0.255 area 0
+R4(config-router)#net 192.1.1.8 0.0.0.3 area 0
+R4(config-router)#net 192.1.1.12 0.0.0.3 area 0
+R4(config-router)#exit
+R4(config)#ip dhcp pool R4F0_0
+R4(dhcp-config)#network 192.168.4.0 255.255.255.0
+R4(dhcp-config)#exit
+R4(config)#ip dhcp pool R4F2_0
+R4(dhcp-config)#network 192.1.1.12 255.255.255.252
+R4(dhcp-config)#exit
+R4(config)#ip dhcp pool R4F0_0
+R4(dhcp-config)#default-router 192.168.4.1
+R4(dhcp-config)#dns-server 8.8.8.8
+R4(dhcp-config)#exit
+R4(config)#ip dhcp pool R4F2_0
+R4(dhcp-config)#default-router 192.1.1.13
+R4(dhcp-config)#dns-server 8.8.8.8
+R4(dhcp-config)#end
+
+R1 PROTOCOLO Y DHCP 
+
+R1#enable
+R1#conf term
+R1(config)#int fast 0/0
+R1(config-if)#ip add 192.168.1.1 255.255.255.0
+R1(config-if)#no sh
+R1(config-if)#exit
+R1(config)#int fast 1/0
+R1(config-if)#ip add dhcp
+R1(config-if)#no sh
+R1(config-if)#exit
+R1(config)#int fast 2/0
+R1(config-if)#ip add dhcp
+R1(config-if)#no sh
+R1(config-if)#exit
+R1(config)#int fast 2/1
+R1(config-if)#ip add 192.1.1.17 255.255.255.252
+R1(config-if)#no sh
+R1(config-if)#exit
+R1(config)#router ospf 1
+R1(config-router)#net 192.168.1.0 0.0.0.255 area 0
+R1(config-router)#net 192.1.1.0 0.0.0.3 area 0
+R1(config-router)#net 192.1.1.12 0.0.0.3 area 0
+R1(config-router)#net 192.1.1.16 0.0.0.3 area 0
+R1(config-router)#end
+
+
+
+
+
