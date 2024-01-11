@@ -50,15 +50,46 @@ def seleccion():
     protocolo = request.form.get('protocolo')
     router = request.form.get('router')
     ip = iprouter(router)
-    if protocolo == 'DHCP':
+    if protocolo == 'ACL':
+        resultado = ACL(ip)
+    elif protocolo == 'DHCP':
         resultado = DHCP(ip)
+    elif protocolo == 'NAT':
+        resultado = NAT(ip)
+    elif protocolo == 'DNS':
+        resultado = DNS(ip)
+    elif protocolo == 'VPN':
+        resultado = VPN(ip)
+    elif protocolo == 'SNMP':
+        resultado = SNMP(ip)
+    elif protocolo == 'RMON':
+        resultado = RMON(ip)
+    elif protocolo == 'VLAN':
+        resultado = VLAN(ip)
+    elif protocolo == 'PROTOCOLO':
+        resultado = PROTOCOLO(ip)
     else:
         resultado = ip + "no mano"
     return render_template('protocolos.html', resultado=resultado, router=router)
 
-
+def ACL(ip):
+    return 'ACL' + ip
 def DHCP(ip):
-    return ip
+    return 'DHCP' + ip
+def NAT(ip):
+    return 'NAT' + ip
+def DNS(ip):
+    return 'DNS' + ip
+def VPN(ip):
+    return 'VPN' + ip
+def SNMP(ip):
+    return 'SNMP' + ip
+def RMON(ip):
+    return 'RMON' + ip
+def VLAN(ip):
+    return 'VLAN' + ip
+def PROTOCOLO(ip):
+    return 'OSPF' + ip
 
 
 if __name__ == '__main__':
