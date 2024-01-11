@@ -171,6 +171,38 @@ R1(config-line)#exit
 R1(config)#Username cisco privilege 15 password cisco
 R1(config)#end
 
+conf term
+enable secret 1234
+service password-encryption
+interface loopback 0
+description loopback 0
+ip address 192.168.0.2 255.255.255.255
+no sh
+exit
+router ospf 1
+passive-interface Loopback 0
+exit
+ip domain-name adminredes.escom.ipn.mx
+ip ssh rsa keypair-name sshkey
+crypto key generate rsa usage-keys label sshkey modulus 1024
+ip ssh v 2
+ip ssh time-out 30
+ip ssh authentication-retries 3
+Line vty 0 15
+Password cisco
+Login local
+transport input ssh telnet
+exit
+Username cisco privilege 15 password cisco
+end
+
+
+
+
+
+
+
+
 
 
 
