@@ -28,5 +28,38 @@ def topologia():
 def protocolos(router):
     return render_template('protocolos.html', router=router)
 
+def iprouter(router):
+    if router == '1':
+        ip = '192.1.1.2'
+        return ip
+    elif router == '2':
+        ip = '192.1.1.1'
+        return ip
+    elif router == '3':
+        ip = '192.1.1.5'
+        return ip
+    elif router == '4':
+        ip = '192.1.1.13'
+        return ip
+    else:
+        ip = 'Error no se ha seleccionado algun router'
+        return ip
+
+@app.route('/seleccion', methods=['POST'])
+def seleccion():
+    protocolo = request.form.get('protocolo')
+    router = request.form.get('router')
+    ip = iprouter(router)
+    if protocolo == 'DHCP':
+        resultado = DHCP(ip)
+    else:
+        resultado = ip + "no mano"
+    return render_template('protocolos.html', resultado=resultado, router=router)
+
+
+def DHCP(ip):
+    return ip
+
+
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,48 @@
+Jan 10 21:18:00.575 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 10 21:18:00.585 HYPERVISOR: Started on IP = localhost, TCP port = 56959.
+Jan 10 21:18:01.045 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 21:18:01.045 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips 
+Jan 10 21:18:01.045 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips
+Jan 10 21:18:01.045 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\cdbd8e04-d42a-4829-a930-e34535625a28 
+Jan 10 21:18:01.045 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\cdbd8e04-d42a-4829-a930-e34535625a28
+Jan 10 21:18:01.045 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Jan 10 21:18:01.045 VM: VM R3 created.
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x608927c0 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/keval/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jan 10 21:18:01.055 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.b380.0000 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-FE-TX 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-2FE-TX 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-2FE-TX 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding R3 4 0 PA-2FE-TX 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding R3 5 0 PA-2FE-TX 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:01.065 HYPERVISOR: exec_cmd: vm slot_add_binding R3 6 0 PA-2FE-TX 
+Jan 10 21:18:07.435 HYPERVISOR: exec_cmd: nio create_udp udp-7f9b8a8c-36ee-46d4-b19b-f660e9cece08 10012 127.0.0.1 10013 
+Jan 10 21:18:07.723 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-7f9b8a8c-36ee-46d4-b19b-f660e9cece08 
+Jan 10 21:18:07.723 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:08.624 HYPERVISOR: exec_cmd: nio create_udp udp-2f92d528-55b3-430f-b665-58f2f6175294 10032 127.0.0.1 10033 
+Jan 10 21:18:08.634 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-2f92d528-55b3-430f-b665-58f2f6175294 
+Jan 10 21:18:08.634 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:08.724 HYPERVISOR: exec_cmd: nio create_udp udp-200547be-1bcc-40ed-a0ae-33a6ab9c85cd 10036 127.0.0.1 10037 
+Jan 10 21:18:08.724 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-200547be-1bcc-40ed-a0ae-33a6ab9c85cd 
+Jan 10 21:18:08.724 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:19.637 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Jan 10 21:18:19.657 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Jan 10 21:18:19.657 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 10 21:18:19.667 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Jan 10 21:18:19.677 HYPERVISOR: exec_cmd: vm start R3 
+Jan 10 21:18:50.064 HYPERVISOR: exec_cmd: vm extract_config R3 

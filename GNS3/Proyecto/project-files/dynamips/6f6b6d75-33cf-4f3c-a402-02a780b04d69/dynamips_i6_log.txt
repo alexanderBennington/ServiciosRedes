@@ -1,0 +1,42 @@
+Jan 10 21:18:02.483 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 10 21:18:02.483 HYPERVISOR: Started on IP = localhost, TCP port = 56968.
+Jan 10 21:18:02.953 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 21:18:02.953 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips 
+Jan 10 21:18:02.953 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips
+Jan 10 21:18:02.953 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\6f6b6d75-33cf-4f3c-a402-02a780b04d69 
+Jan 10 21:18:02.973 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\6f6b6d75-33cf-4f3c-a402-02a780b04d69
+Jan 10 21:18:02.973 HYPERVISOR: exec_cmd: vm create ISP 6 c7200 
+Jan 10 21:18:02.983 VM: VM ISP created.
+Jan 10 21:18:02.983 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5005 
+Jan 10 21:18:02.983 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 0 C7200-IO-FE 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x608927c0 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/keval/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP ca06.4a28.0000 
+Jan 10 21:18:02.993 HYPERVISOR: exec_cmd: vm set_nvram ISP 512 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm set_ram ISP 512 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 PA-FE-TX 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 2 0 PA-2FE-TX 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 3 0 PA-2FE-TX 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 4 0 PA-2FE-TX 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 5 0 PA-2FE-TX 
+Jan 10 21:18:03.003 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:03.013 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 6 0 PA-2FE-TX 
+Jan 10 21:18:09.444 HYPERVISOR: exec_cmd: nio create_udp udp-db1ba9b5-e615-41bc-9713-7aa579165f8d 10056 127.0.0.1 10057 
+Jan 10 21:18:09.742 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-db1ba9b5-e615-41bc-9713-7aa579165f8d 
+Jan 10 21:18:09.742 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:20.188 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Jan 10 21:18:20.190 HYPERVISOR: exec_cmd: vm set_ghost_file ISP C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Jan 10 21:18:20.190 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 10 21:18:20.200 HYPERVISOR: exec_cmd: vm set_config ISP configs\i6_startup-config.cfg 
+Jan 10 21:18:20.200 HYPERVISOR: exec_cmd: vm start ISP 
+Jan 10 21:18:51.203 HYPERVISOR: exec_cmd: vm extract_config ISP 

@@ -1,0 +1,66 @@
+Jan 10 21:17:58.898 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 10 21:17:58.898 HYPERVISOR: Started on IP = localhost, TCP port = 56951.
+Jan 10 21:17:58.938 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 21:17:58.948 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips 
+Jan 10 21:17:59.168 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips
+Jan 10 21:17:59.168 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\546ffa92-3219-4b2c-bc61-3ff4a1f10a3b 
+Jan 10 21:17:59.168 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\546ffa92-3219-4b2c-bc61-3ff4a1f10a3b
+Jan 10 21:17:59.168 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Jan 10 21:17:59.178 VM: VM R1 created.
+Jan 10 21:17:59.778 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jan 10 21:17:59.778 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Jan 10 21:17:59.778 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.778 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x608927c0 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/keval/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.a488.0000 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Jan 10 21:17:59.788 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-FE-TX 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-2FE-TX 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-2FE-TX 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm slot_add_binding R1 4 0 PA-2FE-TX 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm slot_add_binding R1 5 0 PA-2FE-TX 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:17:59.798 HYPERVISOR: exec_cmd: vm slot_add_binding R1 6 0 PA-2FE-TX 
+Jan 10 21:18:06.498 HYPERVISOR: exec_cmd: nio create_udp udp-e1d0f56b-8b99-4b3b-bfd4-7ca320e50ef8 10002 127.0.0.1 10003 
+Jan 10 21:18:06.775 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-e1d0f56b-8b99-4b3b-bfd4-7ca320e50ef8 
+Jan 10 21:18:06.775 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:18:08.474 HYPERVISOR: exec_cmd: nio create_udp udp-fa75fe7b-938e-4dc6-811a-0f92eb557311 10024 127.0.0.1 10025 
+Jan 10 21:18:08.484 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-fa75fe7b-938e-4dc6-811a-0f92eb557311 
+Jan 10 21:18:08.484 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:18:08.864 HYPERVISOR: exec_cmd: nio create_udp udp-8b76f9e1-287f-47c6-9d87-4ac29e4358ce 10044 127.0.0.1 10045 
+Jan 10 21:18:08.864 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-8b76f9e1-287f-47c6-9d87-4ac29e4358ce 
+Jan 10 21:18:08.864 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:18:08.954 HYPERVISOR: exec_cmd: nio create_udp udp-497add66-d691-4d39-afe1-2cc469ba5abc 10048 127.0.0.1 10049 
+Jan 10 21:18:08.964 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 1 udp-497add66-d691-4d39-afe1-2cc469ba5abc 
+Jan 10 21:18:08.964 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:18:18.868 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 10 21:18:18.878 VM: VM Ghost created.
+Jan 10 21:18:18.878 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/keval/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jan 10 21:18:18.878 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 10 21:18:18.878 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Jan 10 21:18:18.878 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 10 21:18:18.878 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 10 21:18:18.878 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jan 10 21:18:18.888 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 10 21:18:19.377 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 10 21:18:19.377 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 10 21:18:19.607 VM: VM Ghost shutdown.
+Jan 10 21:18:19.617 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jan 10 21:18:19.617 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 10 21:18:19.617 VM: VM Ghost destroyed.
+Jan 10 21:18:19.627 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jan 10 21:18:19.627 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Jan 10 21:18:19.627 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 10 21:18:19.637 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Jan 10 21:18:19.637 HYPERVISOR: exec_cmd: vm start R1 
+Jan 10 21:18:49.995 HYPERVISOR: exec_cmd: vm extract_config R1 

@@ -1,0 +1,45 @@
+Jan 10 21:18:01.845 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 10 21:18:01.845 HYPERVISOR: Started on IP = localhost, TCP port = 56965.
+Jan 10 21:18:02.315 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 21:18:02.315 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips 
+Jan 10 21:18:02.315 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips
+Jan 10 21:18:02.315 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\be6617e4-3ad8-41ea-9fd6-ff68fa2adfad 
+Jan 10 21:18:02.315 GENERAL: working_dir=C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\be6617e4-3ad8-41ea-9fd6-ff68fa2adfad
+Jan 10 21:18:02.315 HYPERVISOR: exec_cmd: vm create RF 5 c7200 
+Jan 10 21:18:02.325 VM: VM RF created.
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm set_con_tcp_port RF 5004 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: c7200 get_mac_addr RF 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm slot_add_binding RF 0 0 C7200-IO-FE 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm set_disk0 RF 0 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm set_exec_area RF 64 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm set_idle_pc RF 0x608927c0 
+Jan 10 21:18:02.325 HYPERVISOR: exec_cmd: vm set_ios RF C:/Users/keval/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: c7200 set_mac_addr RF ca05.7d60.0000 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm set_nvram RF 512 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm set_ram RF 512 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm slot_add_binding RF 1 0 PA-FE-TX 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm slot_add_binding RF 2 0 PA-2FE-TX 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm slot_add_binding RF 3 0 PA-2FE-TX 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm slot_add_binding RF 4 0 PA-2FE-TX 
+Jan 10 21:18:02.335 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.345 HYPERVISOR: exec_cmd: vm slot_add_binding RF 5 0 PA-2FE-TX 
+Jan 10 21:18:02.345 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:02.345 HYPERVISOR: exec_cmd: vm slot_add_binding RF 6 0 PA-2FE-TX 
+Jan 10 21:18:08.974 HYPERVISOR: exec_cmd: nio create_udp udp-7d8f5d2e-4e82-47d4-8e55-c4fb7ca4bfed 10050 127.0.0.1 10051 
+Jan 10 21:18:09.284 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RF 0 0 udp-7d8f5d2e-4e82-47d4-8e55-c4fb7ca4bfed 
+Jan 10 21:18:09.284 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:09.374 HYPERVISOR: exec_cmd: nio create_udp udp-d4a489bf-fb08-4dd6-b431-5590d8c387a4 10054 127.0.0.1 10055 
+Jan 10 21:18:09.424 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RF 1 0 udp-d4a489bf-fb08-4dd6-b431-5590d8c387a4 
+Jan 10 21:18:09.424 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:20.129 HYPERVISOR: exec_cmd: vm set_ghost_status RF 2 
+Jan 10 21:18:20.149 HYPERVISOR: exec_cmd: vm set_ghost_file RF C:\Users\keval\PycharmProjects\ServiciosRedes\ServiciosRedes-main\ServiciosRedes-main\GNS3\Proyecto\project-files\dynamips\c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Jan 10 21:18:20.149 HYPERVISOR: exec_cmd: vm get_status RF 
+Jan 10 21:18:20.180 HYPERVISOR: exec_cmd: vm set_config RF configs\i5_startup-config.cfg 
+Jan 10 21:18:20.180 HYPERVISOR: exec_cmd: vm start RF 
+Jan 10 21:18:51.614 HYPERVISOR: exec_cmd: vm extract_config RF 

@@ -35,10 +35,10 @@
         </div>
     </nav>
     <section class="container centro">
-        <form action="" method="post" id="protocolos">
+        <form action="/seleccion" method="post" id="protocolos">
             <div class="mb-3">
                 <label for="opciones" class="form-label label-tamano">Opciones Router {{ router }}</label>
-                <select class="form-select" aria-label="Selecccionar Protocolo" id="opciones">
+                <select class="form-select" aria-label="Selecccionar Protocolo" id="opciones" name="protocolo">
                     <option selected>Seleccione una opción</option>
                     <option value="ACL">ACL</option>
                     <option value="DHCP">DHCP</option>
@@ -50,12 +50,13 @@
                     <option value="VLAN">VLAN</option>
                     <option value="PROTOCOLO">PROTOCOLO DE ENRUTAMIENTO</option>
                 </select>
+                <input type="text" value="{{ router }}" name="router" style="display: none;">
             </div>
             <button type="submit" class="btn btn-outline-light">Ingresar</button>
         </form>
         <div class="mb-3 espacio">
             <label for="consulta" class="form-label label-tamano">Consulta</label>
-            <textarea class="form-control" id="consulta" rows="15" readonly></textarea>
+            <textarea class="form-control" id="consulta" rows="15" readonly>{{ resultado }}</textarea>
         </div>
     </section>
     <footer>
