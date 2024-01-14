@@ -242,5 +242,25 @@ ip domain-list servidordns.com
 ip host pc3.servidordns.com 192.168.2.2
 exit
 
+ACL
 
+R1
+enable
+conf term
+ip access-list standard 10
+deny 192.168.4.0 0.0.0.255
+permit any
+exit
+int fast 2/0
+ip access-group 10 in
+exit
 
+ip access-list extended 110
+deny ip 192.168.2.0 0.0.0.255 host 192.1.1.18
+permit ip any any
+exit
+int fast 2/1
+ip access-group 20 out
+exit
+
+SNMP

@@ -193,8 +193,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"58\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .2</text></svg>",
-                "x": 114,
-                "y": 24,
+                "x": 110,
+                "y": 20,
                 "z": 2
             },
             {
