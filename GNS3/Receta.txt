@@ -264,3 +264,14 @@ ip access-group 20 out
 exit
 
 SNMP
+
+enable
+conf term
+ip access-list standard PERMIT-ADMIN
+permit 192.168.1.0 0.0.0.255
+exit
+snmp-server view SNMP-RO iso included
+snmp-server view SNMP-RW iso included
+snmp-server group ADMIN v3 priv read SNMP-RO write SNNMP-RW access PERMIT-ADMIN
+snmp-server user cisco ADMIN v3 auth sha cisco123 pri des56 cisco123
+end 
