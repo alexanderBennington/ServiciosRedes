@@ -236,12 +236,11 @@ conf term
 ip dns server
 ip domain-lookup
 ip name-server 8.8.8.8
-ip host R1 192.168.1.2
+ip host pc3 192.168.2.2
 ip domain-name servidordns.com
 ip domain-list servidordns.com
-ip host R1.servidordns.com 192.168.1.2
+ip host pc3.servidordns.com 192.168.2.2
 exit
-
 
 
 
