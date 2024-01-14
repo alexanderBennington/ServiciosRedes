@@ -171,6 +171,8 @@ R1(config-line)#exit
 R1(config)#Username cisco privilege 15 password cisco
 R1(config)#end
 
+SSH
+
 conf term
 enable secret 1234
 service password-encryption
@@ -196,14 +198,49 @@ exit
 Username cisco privilege 15 password cisco
 end
 
+NAT
 
+!ISP
+enable
+conf term
+ip route 209.165.200.240 255.255.255.240 209.165.200.225
+end
+!RF
+enable
+conf term
+router ospf 1
+ network 192.1.1.16 0.0.0.3 area 0
+ network 192.168.1.0 0.0.0.255 area 0
+ network 209.165.200.224 0.0.0.3 area 0
+ network 192.1.1.0 0.0.0.3 area 0
+ network 192.1.1.12 0.0.0.3 area 0
+ default-information originate always
+ exit
+ip route 0.0.0.0 0.0.0.0 209.165.200.226
+ip nat inside source static 192.168.1.2 209.165.200.241
+ip access-list extended NAT
+ permit ip 192.168.1.0 0.0.0.255 any
+ exit
+interface FastEthernet0/0
+ ip nat inside
+ exit
+interface FastEthernet1/0
+ ip nat outside
+ exit
+end
 
+DNS
 
-
-
-
-
-
+enable
+conf term
+ip dns server
+ip domain-lookup
+ip name-server 8.8.8.8
+ip host R1 192.168.1.2
+ip domain-name servidordns.com
+ip domain-list servidordns.com
+ip host R1.servidordns.com 192.168.1.2
+exit
 
 
 

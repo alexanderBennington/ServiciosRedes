@@ -66,27 +66,27 @@
                 "drawing_id": "38aed8b6-afce-42ef-852e-7f50520aee97",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -605,
-                "y": -147,
+                "svg": "<svg width=\"58\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .2</text></svg>",
+                "x": -629,
+                "y": -138,
                 "z": 2
             },
             {
                 "drawing_id": "00926b54-5331-43ee-b677-1654b431d321",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": -599,
-                "y": 164,
+                "svg": "<svg width=\"58\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .2</text></svg>",
+                "x": -621,
+                "y": 167,
                 "z": 2
             },
             {
                 "drawing_id": "b37a5c98-2820-4193-8b17-9960d0da2e03",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
-                "x": 554,
-                "y": 283,
+                "svg": "<svg width=\"58\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .2</text></svg>",
+                "x": 534,
+                "y": 279,
                 "z": 2
             },
             {
@@ -174,9 +174,9 @@
                 "drawing_id": "393dec93-22c1-4e70-9dbe-9200d1b019a3",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"100\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">192.1.1.20/30</text></svg>",
-                "x": 376,
-                "y": -286,
+                "svg": "<svg width=\"140\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">209.165.200.224/30</text></svg>",
+                "x": 325,
+                "y": -262,
                 "z": 2
             },
             {
@@ -192,7 +192,7 @@
                 "drawing_id": "bdea484d-c48a-4536-9826-a4fb1626ed07",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "svg": "<svg width=\"58\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .2</text></svg>",
                 "x": 114,
                 "y": 24,
                 "z": 2
@@ -210,9 +210,9 @@
                 "drawing_id": "c040c6b8-1b13-4174-82ac-79cb5a17d3b6",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"20\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.6</text></svg>",
-                "x": 54,
-                "y": 257,
+                "svg": "<svg width=\"58\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .6</text></svg>",
+                "x": 17,
+                "y": 262,
                 "z": 2
             },
             {
@@ -228,7 +228,7 @@
                 "drawing_id": "ccc9ffcd-bb21-40e1-8323-225d6c26e13d",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"28\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.10</text></svg>",
+                "svg": "<svg width=\"66\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .10</text></svg>",
                 "x": -250,
                 "y": 49,
                 "z": 2
@@ -246,9 +246,9 @@
                 "drawing_id": "f2c66bb5-3217-4b27-af47-00f4c28f9d02",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"28\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.14</text></svg>",
-                "x": 6,
-                "y": -2,
+                "svg": "<svg width=\"66\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">DHCP .14</text></svg>",
+                "x": -30,
+                "y": 0,
                 "z": 2
             },
             {
@@ -273,18 +273,18 @@
                 "drawing_id": "d9ae1749-a55a-47dc-b25a-0ddb4a8bc32b",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"28\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.21</text></svg>",
-                "x": 299,
-                "y": -194,
+                "svg": "<svg width=\"36\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.225</text></svg>",
+                "x": 303,
+                "y": -200,
                 "z": 2
             },
             {
-                "drawing_id": "0f0db6e6-6587-4853-9a0c-9f9df08129df",
+                "drawing_id": "aeaba221-0fbd-4a57-aa7f-7d966d4ef7ec",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"28\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.22</text></svg>",
-                "x": 449,
-                "y": -232,
+                "svg": "<svg width=\"36\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.226</text></svg>",
+                "x": 419,
+                "y": -203,
                 "z": 2
             }
         ],
@@ -741,7 +741,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5003,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -810,7 +810,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5004,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -879,7 +879,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5005,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -948,7 +948,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5006,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1017,7 +1017,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5007,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1086,7 +1086,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5008,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1155,7 +1155,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5009,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -1235,7 +1235,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5007,
+                "console": 5010,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -1315,7 +1315,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5008,
+                "console": 5011,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -1395,7 +1395,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5009,
+                "console": 5012,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -1475,7 +1475,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5010,
+                "console": 5013,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1498,13 +1498,13 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -626,
-                "y": -203,
+                "x": -631,
+                "y": -201,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5012,
+                "console": 5015,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1533,7 +1533,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5014,
+                "console": 5021,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
