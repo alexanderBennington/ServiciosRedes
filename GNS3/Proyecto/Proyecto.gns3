@@ -22,8 +22,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">192.168.4.0/24</text></svg>",
-                "x": -636,
-                "y": -254,
+                "x": -502,
+                "y": -121,
                 "z": 2
             },
             {
@@ -31,8 +31,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">192.168.3.0/24</text></svg>",
-                "x": -629,
-                "y": 54,
+                "x": -494,
+                "y": 176,
                 "z": 2
             },
             {
@@ -40,8 +40,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"108\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">192.168.2.0/24</text></svg>",
-                "x": 518,
-                "y": 163,
+                "x": 272,
+                "y": 185,
                 "z": 2
             },
             {
